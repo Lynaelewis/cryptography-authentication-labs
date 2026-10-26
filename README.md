@@ -20,7 +20,7 @@ Requires **Python 3.10+**. No third-party packages required.
 python -m unittest discover -s tests -v
 ```
 
-The tests cover known SHA-256 outputs, file modification detection, correct/incorrect passwords, random salts, and malformed stored hashes.
+**Verification:** All six included unit tests passed in a local Python environment in October 2026. The tests cover known SHA-256 outputs, file modification detection, correct/incorrect passwords, random salts, and malformed stored hashes. This is functional test verification, not an independent security audit.
 
 ## Why these controls matter
 
