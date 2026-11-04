@@ -9,7 +9,6 @@ This folder documents a controlled university cybersecurity lab involving HTTP i
 - Used SSH port forwarding through a VPN to reach an isolated teaching environment.
 - Validated the lab outcome through the course autograder.
 
-This is systematic input enumeration and **fuzzing-related vulnerability testing**, not a claim of experience with AFL++, libFuzzer, Burp Suite, or production penetration testing.
 
 ## Safe reproduction
 `input_validation_demo.py` is a **new, local-only demonstration** of the testing pattern. It never sends requests to the university lab or any external service, and it contains no credential collection or exploit payloads.
