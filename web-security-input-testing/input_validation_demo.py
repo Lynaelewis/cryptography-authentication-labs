@@ -1,11 +1,8 @@
-"""Local-only, sanitized example of systematic input validation testing.
+"local-only, sanitized example of systematic input validation testing."
 
-New portfolio demonstration; not the original CSE 3140 submission.
-No network access or exploitation.
-"""
 
 def render_field(prefix: str, user_text: str) -> str:
-    """Toy input handler with an intentionally introduced validation defect."""
+    "Toy input handler with an intentionally introduced validation defect"
     if prefix == "527":
         return user_text  # deliberately unsafe toy behavior
     return user_text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
